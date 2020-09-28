@@ -11,4 +11,6 @@ This is so this process can be reversed if something goes wrong.
 
 After that, download the Xcode 11 toolchain here
 
+Place it in the same directory as the original, in /Applications/Xcode.app/Contents/Developer/Toolchains/
+
 Restart Xcode and you should be able to compile for arm64e no problem.
