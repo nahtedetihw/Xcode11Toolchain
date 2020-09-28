@@ -1,0 +1,198 @@
+[
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Constructor",
+    "NodeAnnotation": "WrapOptional",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)CKNotification(cm)notificationFromRemoteNotificationDictionary:",
+    "LeftComment": "",
+    "RightUsr": "",
+    "RightComment": "",
+    "ModuleName": "CloudKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Constructor",
+    "NodeAnnotation": "WrapOptional",
+    "ChildIndex": "2",
+    "LeftUsr": "c:objc(cs)XCTNSNotificationExpectation(im)initWithName:object:",
+    "LeftComment": "",
+    "RightUsr": "",
+    "RightComment": "",
+    "ModuleName": "XCTest"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "WrapOptional",
+    "ChildIndex": "2",
+    "LeftUsr": "c:objc(cs)XCTestCase(im)expectationForPredicate:evaluatedWithObject:handler:",
+    "LeftComment": "",
+    "RightUsr": "",
+    "RightComment": "",
+    "ModuleName": "XCTest"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@T@XCUIElementAttributeName",
+    "OldPrintedName": "XCUIElementAttributeName",
+    "OldTypeName": "",
+    "NewPrintedName": "AttributeName",
+    "NewTypeName": "XCUIElement"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@XCUIElementAttributeNameChildren",
+    "OldPrintedName": "children",
+    "OldTypeName": "XCUIElementAttributeName",
+    "NewPrintedName": "children",
+    "NewTypeName": "XCUIElement.AttributeName"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@XCUIElementAttributeNameElementType",
+    "OldPrintedName": "elementType",
+    "OldTypeName": "XCUIElementAttributeName",
+    "NewPrintedName": "elementType",
+    "NewTypeName": "XCUIElement.AttributeName"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@XCUIElementAttributeNameEnabled",
+    "OldPrintedName": "enabled",
+    "OldTypeName": "XCUIElementAttributeName",
+    "NewPrintedName": "enabled",
+    "NewTypeName": "XCUIElement.AttributeName"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@XCUIElementAttributeNameFrame",
+    "OldPrintedName": "frame",
+    "OldTypeName": "XCUIElementAttributeName",
+    "NewPrintedName": "frame",
+    "NewTypeName": "XCUIElement.AttributeName"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@XCUIElementAttributeNameHasFocus",
+    "OldPrintedName": "hasFocus",
+    "OldTypeName": "XCUIElementAttributeName",
+    "NewPrintedName": "hasFocus",
+    "NewTypeName": "XCUIElement.AttributeName"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@XCUIElementAttributeNameHorizontalSizeClass",
+    "OldPrintedName": "horizontalSizeClass",
+    "OldTypeName": "XCUIElementAttributeName",
+    "NewPrintedName": "horizontalSizeClass",
+    "NewTypeName": "XCUIElement.AttributeName"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@XCUIElementAttributeNameIdentifier",
+    "OldPrintedName": "identifier",
+    "OldTypeName": "XCUIElementAttributeName",
+    "NewPrintedName": "identifier",
+    "NewTypeName": "XCUIElement.AttributeName"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@XCUIElementAttributeNameLabel",
+    "OldPrintedName": "label",
+    "OldTypeName": "XCUIElementAttributeName",
+    "NewPrintedName": "label",
+    "NewTypeName": "XCUIElement.AttributeName"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@XCUIElementAttributeNamePlaceholderValue",
+    "OldPrintedName": "placeholderValue",
+    "OldTypeName": "XCUIElementAttributeName",
+    "NewPrintedName": "placeholderValue",
+    "NewTypeName": "XCUIElement.AttributeName"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@XCUIElementAttributeNameSelected",
+    "OldPrintedName": "selected",
+    "OldTypeName": "XCUIElementAttributeName",
+    "NewPrintedName": "selected",
+    "NewTypeName": "XCUIElement.AttributeName"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@XCUIElementAttributeNameTitle",
+    "OldPrintedName": "title",
+    "OldTypeName": "XCUIElementAttributeName",
+    "NewPrintedName": "title",
+    "NewTypeName": "XCUIElement.AttributeName"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@XCUIElementAttributeNameValue",
+    "OldPrintedName": "value",
+    "OldTypeName": "XCUIElementAttributeName",
+    "NewPrintedName": "value",
+    "NewTypeName": "XCUIElement.AttributeName"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@XCUIElementAttributeNameVerticalSizeClass",
+    "OldPrintedName": "verticalSizeClass",
+    "OldTypeName": "XCUIElementAttributeName",
+    "NewPrintedName": "verticalSizeClass",
+    "NewTypeName": "XCUIElement.AttributeName"
+  },
+  {
+    "DiffItemKind": "NoEscapeFuncParam",
+    "Usr": "c:@F@UIGuidedAccessConfigureAccessibilityFeatures",
+    "Index": 3
+  },
+  {
+    "DiffItemKind": "NoEscapeFuncParam",
+    "Usr": "c:objc(cs)AVContentKeySession(im)invalidateAllPersistableContentKeysForApp:options:completionHandler:",
+    "Index": 3
+  },
+  {
+    "DiffItemKind": "NoEscapeFuncParam",
+    "Usr": "c:objc(cs)AVContentKeySession(im)invalidatePersistableContentKey:options:completionHandler:",
+    "Index": 3
+  },
+  {
+    "DiffItemKind": "NoEscapeFuncParam",
+    "Usr": "c:objc(cs)CKContainer(im)discoverAllContactUserInfosWithCompletionHandler:",
+    "Index": 1
+  },
+  {
+    "DiffItemKind": "NoEscapeFuncParam",
+    "Usr": "c:objc(cs)CKContainer(im)discoverUserInfoWithEmailAddress:completionHandler:",
+    "Index": 2
+  },
+  {
+    "DiffItemKind": "NoEscapeFuncParam",
+    "Usr": "c:objc(cs)CKContainer(im)discoverUserInfoWithUserRecordID:completionHandler:",
+    "Index": 2
+  },
+  {
+    "DiffItemKind": "NoEscapeFuncParam",
+    "Usr": "c:objc(cs)PKDisbursementAuthorizationController(im)authorizeDisbursementWithCompletion:",
+    "Index": 1
+  },
+  {
+    "DiffItemKind": "NoEscapeFuncParam",
+    "Usr": "c:objc(pl)CLSContextProvider(im)updateDescendantsOfContext:completion:",
+    "Index": 2
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "WrapOptional",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)CKAsset(py)fileURL",
+    "LeftComment": "",
+    "RightUsr": "",
+    "RightComment": "",
+    "ModuleName": "CloudKit"
+  }
+]

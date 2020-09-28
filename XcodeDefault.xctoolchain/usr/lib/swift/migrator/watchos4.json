@@ -1,0 +1,2435 @@
+[
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionCategoryAmbient",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Category",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionCategoryMultiRoute",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Category",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionCategoryPlayAndRecord",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Category",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionCategoryPlayback",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Category",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionCategoryRecord",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Category",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionCategorySoloAmbient",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Category",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionLocationLower",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Location",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionLocationUpper",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Location",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionModeDefault",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionModeGameChat",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionModeMeasurement",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionModeMoviePlayback",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionModeSpokenAudio",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionModeVideoChat",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionModeVideoRecording",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionModeVoiceChat",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionModeVoicePrompt",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionOrientationBack",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Location",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionOrientationBottom",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Location",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionOrientationFront",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Location",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionOrientationLeft",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Location",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionOrientationRight",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Location",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionOrientationTop",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Location",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPolarPatternCardioid",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Location",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPolarPatternOmnidirectional",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Location",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPolarPatternSubcardioid",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Location",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPortAirPlay",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Port",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPortBluetoothA2DP",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Port",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPortBluetoothHFP",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Port",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPortBluetoothLE",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Port",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPortBuiltInMic",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Port",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPortBuiltInReceiver",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Port",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPortBuiltInSpeaker",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Port",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPortCarAudio",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Port",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPortHDMI",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Port",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPortHeadphones",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Port",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPortHeadsetMic",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Port",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPortLineIn",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Port",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPortLineOut",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Port",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@AVAudioSessionPortUSBAudio",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Port",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@AVAudioSessionErrorCode@AVAudioSessionErrorCodeBadParam",
+    "LeftComment": "codeBadParam",
+    "RightUsr": "",
+    "RightComment": "badParam",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@AVAudioSessionErrorCode@AVAudioSessionErrorCodeCannotInterruptOthers",
+    "LeftComment": "codeCannotInterruptOthers",
+    "RightUsr": "",
+    "RightComment": "cannotInterruptOthers",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@AVAudioSessionErrorCode@AVAudioSessionErrorCodeCannotStartPlaying",
+    "LeftComment": "codeCannotStartPlaying",
+    "RightUsr": "",
+    "RightComment": "cannotStartPlaying",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@AVAudioSessionErrorCode@AVAudioSessionErrorCodeCannotStartRecording",
+    "LeftComment": "codeCannotStartRecording",
+    "RightUsr": "",
+    "RightComment": "cannotStartRecording",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@AVAudioSessionErrorCode@AVAudioSessionErrorCodeIncompatibleCategory",
+    "LeftComment": "codeIncompatibleCategory",
+    "RightUsr": "",
+    "RightComment": "incompatibleCategory",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@AVAudioSessionErrorCode@AVAudioSessionErrorCodeIsBusy",
+    "LeftComment": "codeIsBusy",
+    "RightUsr": "",
+    "RightComment": "isBusy",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@AVAudioSessionErrorCode@AVAudioSessionErrorCodeMediaServicesFailed",
+    "LeftComment": "codeMediaServicesFailed",
+    "RightUsr": "",
+    "RightComment": "mediaServicesFailed",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@AVAudioSessionErrorCode@AVAudioSessionErrorCodeMissingEntitlement",
+    "LeftComment": "codeMissingEntitlement",
+    "RightUsr": "",
+    "RightComment": "missingEntitlement",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@AVAudioSessionErrorCode@AVAudioSessionErrorCodeNone",
+    "LeftComment": "codeNone",
+    "RightUsr": "",
+    "RightComment": "none",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@AVAudioSessionErrorCode@AVAudioSessionErrorCodeResourceNotAvailable",
+    "LeftComment": "codeResourceNotAvailable",
+    "RightUsr": "",
+    "RightComment": "resourceNotAvailable",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@AVAudioSessionErrorCode@AVAudioSessionErrorCodeSiriIsRecording",
+    "LeftComment": "codeSiriIsRecording",
+    "RightUsr": "",
+    "RightComment": "siriIsRecording",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@AVAudioSessionErrorCode@AVAudioSessionErrorCodeUnspecified",
+    "LeftComment": "codeUnspecified",
+    "RightUsr": "",
+    "RightComment": "unspecified",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@GKInviteRecipientResponse@GKInviteRecipientResponseAccepted",
+    "LeftComment": "inviteRecipientResponseAccepted",
+    "RightUsr": "",
+    "RightComment": "accepted",
+    "ModuleName": "GameKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@GKInviteRecipientResponse@GKInviteRecipientResponseDeclined",
+    "LeftComment": "inviteRecipientResponseDeclined",
+    "RightUsr": "",
+    "RightComment": "declined",
+    "ModuleName": "GameKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@GKInviteRecipientResponse@GKInviteRecipientResponseFailed",
+    "LeftComment": "inviteRecipientResponseFailed",
+    "RightUsr": "",
+    "RightComment": "failed",
+    "ModuleName": "GameKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@GKInviteRecipientResponse@GKInviteRecipientResponseIncompatible",
+    "LeftComment": "inviteRecipientResponseIncompatible",
+    "RightUsr": "",
+    "RightComment": "incompatible",
+    "ModuleName": "GameKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@GKInviteRecipientResponse@GKInviteRecipientResponseNoAnswer",
+    "LeftComment": "inviteRecipientResponseNoAnswer",
+    "RightUsr": "",
+    "RightComment": "noAnswer",
+    "ModuleName": "GameKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@GKInviteRecipientResponse@GKInviteRecipientResponseUnableToConnect",
+    "LeftComment": "inviteRecipientResponseUnableToConnect",
+    "RightUsr": "",
+    "RightComment": "unableToConnect",
+    "ModuleName": "GameKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@GKPlayerConnectionState@GKPlayerStateConnected",
+    "LeftComment": "stateConnected",
+    "RightUsr": "",
+    "RightComment": "connected",
+    "ModuleName": "GameKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@GKPlayerConnectionState@GKPlayerStateDisconnected",
+    "LeftComment": "stateDisconnected",
+    "RightUsr": "",
+    "RightComment": "disconnected",
+    "ModuleName": "GameKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@GKPlayerConnectionState@GKPlayerStateUnknown",
+    "LeftComment": "stateUnknown",
+    "RightUsr": "",
+    "RightComment": "unknown",
+    "ModuleName": "GameKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@NSURLRequestNetworkServiceType@NSURLNetworkServiceTypeCallSignaling",
+    "LeftComment": "networkServiceTypeCallSignaling",
+    "RightUsr": "",
+    "RightComment": "callSignaling",
+    "ModuleName": "Foundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@NSUnderlineStyle@NSUnderlineStyleDouble",
+    "LeftComment": "styleDouble",
+    "RightUsr": "",
+    "RightComment": "double",
+    "ModuleName": "UIKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@NSUnderlineStyle@NSUnderlineStyleSingle",
+    "LeftComment": "styleSingle",
+    "RightUsr": "",
+    "RightComment": "single",
+    "ModuleName": "UIKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@E@NSUnderlineStyle@NSUnderlineStyleThick",
+    "LeftComment": "styleThick",
+    "RightUsr": "",
+    "RightComment": "thick",
+    "ModuleName": "UIKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@NSDefaultRunLoopMode",
+    "LeftComment": "defaultRunLoopMode",
+    "RightUsr": "",
+    "RightComment": "default",
+    "ModuleName": "Foundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@NSRunLoopCommonModes",
+    "LeftComment": "commonModes",
+    "RightUsr": "",
+    "RightComment": "common",
+    "ModuleName": "Foundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "TypeAlias",
+    "NodeAnnotation": "TypeAliasDeclToRawRepresentable",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@T@AVAudioSessionCategory",
+    "LeftComment": "NSString",
+    "RightUsr": "",
+    "RightComment": "String",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "TypeAlias",
+    "NodeAnnotation": "TypeAliasDeclToRawRepresentable",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@T@AVAudioSessionLocation",
+    "LeftComment": "NSString",
+    "RightUsr": "",
+    "RightComment": "String",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "TypeAlias",
+    "NodeAnnotation": "TypeAliasDeclToRawRepresentable",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@T@AVAudioSessionMode",
+    "LeftComment": "NSString",
+    "RightUsr": "",
+    "RightComment": "String",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "TypeAlias",
+    "NodeAnnotation": "TypeAliasDeclToRawRepresentable",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@T@AVAudioSessionOrientation",
+    "LeftComment": "NSString",
+    "RightUsr": "",
+    "RightComment": "String",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "TypeAlias",
+    "NodeAnnotation": "TypeAliasDeclToRawRepresentable",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@T@AVAudioSessionPolarPattern",
+    "LeftComment": "NSString",
+    "RightUsr": "",
+    "RightComment": "String",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "TypeAlias",
+    "NodeAnnotation": "TypeAliasDeclToRawRepresentable",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@T@AVAudioSessionPort",
+    "LeftComment": "NSString",
+    "RightUsr": "",
+    "RightComment": "String",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "TypeAlias",
+    "NodeAnnotation": "TypeAliasDeclToRawRepresentable",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@T@UIAccessibilityAssistiveTechnologyIdentifier",
+    "LeftComment": "NSString",
+    "RightUsr": "",
+    "RightComment": "String",
+    "ModuleName": "UIKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "TypeAlias",
+    "NodeAnnotation": "TypeAliasDeclToRawRepresentable",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@T@UNNotificationSoundName",
+    "LeftComment": "NSString",
+    "RightUsr": "",
+    "RightComment": "String",
+    "ModuleName": "UserNotifications"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@UIAccessibilityNotificationSwitchControlIdentifier",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "UIAccessibility.AssistiveTechnologyIdentifier",
+    "ModuleName": "UIKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@UIAccessibilityNotificationVoiceOverIdentifier",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "UIAccessibility.AssistiveTechnologyIdentifier",
+    "ModuleName": "UIKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@UIAccessibilitySpeechAttributeIPANotation",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "NSAttributedString.Key",
+    "ModuleName": "UIKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@UIAccessibilitySpeechAttributeLanguage",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "NSAttributedString.Key",
+    "ModuleName": "UIKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@UIAccessibilitySpeechAttributePitch",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "NSAttributedString.Key",
+    "ModuleName": "UIKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@UIAccessibilitySpeechAttributePunctuation",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "NSAttributedString.Key",
+    "ModuleName": "UIKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@UIAccessibilitySpeechAttributeQueueAnnouncement",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "NSAttributedString.Key",
+    "ModuleName": "UIKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@UIAccessibilityTextAttributeCustom",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "NSAttributedString.Key",
+    "ModuleName": "UIKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:@UIAccessibilityTextAttributeHeadingLevel",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "NSAttributedString.Key",
+    "ModuleName": "UIKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "GetterToProperty",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)recordPermission",
+    "LeftComment": "",
+    "RightUsr": "",
+    "RightComment": "recordPermission",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)setActive:withOptions:error:",
+    "LeftComment": "setActive(_:with:)",
+    "RightUsr": "",
+    "RightComment": "setActive(_:options:)",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "TypeRewritten",
+    "ChildIndex": "2",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)setActive:withOptions:error:",
+    "LeftComment": "AVAudioSessionSetActiveOptions",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.SetActiveOptions",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "1",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)setCategory:mode:options:error:",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Category",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "2",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)setCategory:mode:options:error:",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "TypeRewritten",
+    "ChildIndex": "1",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)setCategory:mode:options:error:",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Category",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "TypeRewritten",
+    "ChildIndex": "2",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)setCategory:mode:options:error:",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "TypeRewritten",
+    "ChildIndex": "3",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)setCategory:mode:options:error:",
+    "LeftComment": "AVAudioSessionCategoryOptions",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.CategoryOptions",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "1",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)setCategory:mode:routeSharingPolicy:options:error:",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Category",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "2",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)setCategory:mode:routeSharingPolicy:options:error:",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)setCategory:mode:routeSharingPolicy:options:error:",
+    "LeftComment": "setCategory(_:mode:routeSharingPolicy:options:)",
+    "RightUsr": "",
+    "RightComment": "setCategory(_:mode:policy:options:)",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "TypeRewritten",
+    "ChildIndex": "1",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)setCategory:mode:routeSharingPolicy:options:error:",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Category",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "TypeRewritten",
+    "ChildIndex": "2",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)setCategory:mode:routeSharingPolicy:options:error:",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "TypeRewritten",
+    "ChildIndex": "4",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)setCategory:mode:routeSharingPolicy:options:error:",
+    "LeftComment": "AVAudioSessionCategoryOptions",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.CategoryOptions",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "1",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)setMode:error:",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "TypeRewritten",
+    "ChildIndex": "1",
+    "LeftUsr": "c:objc(cs)AVAudioSession(im)setMode:error:",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "ArrayMemberUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)AVAudioSession(py)availableCategories",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Category",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "ArrayMemberUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)AVAudioSession(py)availableModes",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)AVAudioSession(py)category",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Category",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)AVAudioSession(py)mode",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Mode",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleOptionalStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)AVAudioSessionDataSourceDescription(py)location",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Location",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleOptionalStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)AVAudioSessionDataSourceDescription(py)orientation",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Orientation",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "SimpleStringRepresentableUpdate",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)AVAudioSessionPortDescription(py)portType",
+    "LeftComment": "String",
+    "RightUsr": "",
+    "RightComment": "AVAudioSession.Port",
+    "ModuleName": "AVFoundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Constructor",
+    "NodeAnnotation": "WrapOptional",
+    "ChildIndex": "1",
+    "LeftUsr": "c:objc(cs)CKFetchRecordZoneChangesOperation(im)initWithRecordZoneIDs:configurationsByRecordZoneID:",
+    "LeftComment": "",
+    "RightUsr": "",
+    "RightComment": "",
+    "ModuleName": "CloudKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Constructor",
+    "NodeAnnotation": "TypeRewritten",
+    "ChildIndex": "1:0",
+    "LeftUsr": "c:objc(cs)CKFetchRecordZoneChangesOperation(im)initWithRecordZoneIDs:configurationsByRecordZoneID:",
+    "LeftComment": "CKRecordZone.ID",
+    "RightUsr": "",
+    "RightComment": "[CKRecordZone.ID]",
+    "ModuleName": "CloudKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Constructor",
+    "NodeAnnotation": "WrapOptional",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)CKNotification(cm)notificationFromRemoteNotificationDictionary:",
+    "LeftComment": "",
+    "RightUsr": "",
+    "RightComment": "",
+    "ModuleName": "CloudKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)CKReference(py)referenceAction",
+    "LeftComment": "referenceAction",
+    "RightUsr": "",
+    "RightComment": "action",
+    "ModuleName": "CloudKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "WrapImplicitOptional",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)CNPhoneNumber(cm)new",
+    "LeftComment": "",
+    "RightUsr": "",
+    "RightComment": "",
+    "ModuleName": "Contacts"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Constructor",
+    "NodeAnnotation": "WrapOptional",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)CNPhoneNumber(im)init",
+    "LeftComment": "",
+    "RightUsr": "",
+    "RightComment": "",
+    "ModuleName": "Contacts"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Constructor",
+    "NodeAnnotation": "UnwrapOptional",
+    "ChildIndex": "1",
+    "LeftUsr": "c:objc(cs)GKAchievement(im)initWithIdentifier:",
+    "LeftComment": "",
+    "RightUsr": "",
+    "RightComment": "",
+    "ModuleName": "GameKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Constructor",
+    "NodeAnnotation": "UnwrapOptional",
+    "ChildIndex": "1",
+    "LeftUsr": "c:objc(cs)GKAchievement(im)initWithIdentifier:player:",
+    "LeftComment": "",
+    "RightUsr": "",
+    "RightComment": "",
+    "ModuleName": "GameKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Constructor",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)PKPass(im)initWithData:error:",
+    "LeftComment": "init(data:error:)",
+    "RightUsr": "",
+    "RightComment": "init(data:)",
+    "ModuleName": "PassKit"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "GetterToProperty",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)UNNotificationSound(cm)defaultSound",
+    "LeftComment": "",
+    "RightUsr": "",
+    "RightComment": "default",
+    "ModuleName": "UserNotifications"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Constructor",
+    "NodeAnnotation": "UnwrapOptional",
+    "ChildIndex": "0",
+    "LeftUsr": "s:10Foundation3URLV21resolvingBookmarkData7options10relativeTo08bookmarkE7IsStaleACSgAA0E0Vh_So30NSURLBookmarkResolutionOptionsVAHhSbztKcfc",
+    "LeftComment": "",
+    "RightUsr": "",
+    "RightComment": "",
+    "ModuleName": "Foundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Constructor",
+    "NodeAnnotation": "TypeRewritten",
+    "ChildIndex": "1",
+    "LeftUsr": "s:10Foundation4DataV5bytesACSays5UInt8VG_tcfc",
+    "LeftComment": "Array<UInt8>",
+    "RightUsr": "",
+    "RightComment": "S",
+    "ModuleName": "Foundation"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Function",
+    "NodeAnnotation": "Rename",
+    "ChildIndex": "0",
+    "LeftUsr": "s:8Dispatch0A4DataV14enumerateBytes5blockyySRys5UInt8VG_SiSbztXE_tF",
+    "LeftComment": "enumerateBytes(block:)",
+    "RightUsr": "",
+    "RightComment": "enumerateBytes(_:)",
+    "ModuleName": "Dispatch"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Constructor",
+    "NodeAnnotation": "UnwrapOptional",
+    "ChildIndex": "0",
+    "LeftUsr": "s:So16NSUnderlineStyleV8rawValueABSgSi_tcfc",
+    "LeftComment": "",
+    "RightUsr": "",
+    "RightComment": "",
+    "ModuleName": "UIKit"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionCategoryAmbient",
+    "OldPrintedName": "AVAudioSessionCategoryAmbient",
+    "OldTypeName": "",
+    "NewPrintedName": "ambient",
+    "NewTypeName": "AVAudioSession.Category"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionCategoryMultiRoute",
+    "OldPrintedName": "AVAudioSessionCategoryMultiRoute",
+    "OldTypeName": "",
+    "NewPrintedName": "multiRoute",
+    "NewTypeName": "AVAudioSession.Category"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionCategoryPlayAndRecord",
+    "OldPrintedName": "AVAudioSessionCategoryPlayAndRecord",
+    "OldTypeName": "",
+    "NewPrintedName": "playAndRecord",
+    "NewTypeName": "AVAudioSession.Category"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionCategoryPlayback",
+    "OldPrintedName": "AVAudioSessionCategoryPlayback",
+    "OldTypeName": "",
+    "NewPrintedName": "playback",
+    "NewTypeName": "AVAudioSession.Category"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionCategoryRecord",
+    "OldPrintedName": "AVAudioSessionCategoryRecord",
+    "OldTypeName": "",
+    "NewPrintedName": "record",
+    "NewTypeName": "AVAudioSession.Category"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionCategorySoloAmbient",
+    "OldPrintedName": "AVAudioSessionCategorySoloAmbient",
+    "OldTypeName": "",
+    "NewPrintedName": "soloAmbient",
+    "NewTypeName": "AVAudioSession.Category"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionInterruptionNotification",
+    "OldPrintedName": "AVAudioSessionInterruption",
+    "OldTypeName": "NSNotification.Name",
+    "NewPrintedName": "interruptionNotification",
+    "NewTypeName": "AVAudioSession"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionLocationLower",
+    "OldPrintedName": "AVAudioSessionLocationLower",
+    "OldTypeName": "",
+    "NewPrintedName": "lower",
+    "NewTypeName": "AVAudioSession.Location"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionLocationUpper",
+    "OldPrintedName": "AVAudioSessionLocationUpper",
+    "OldTypeName": "",
+    "NewPrintedName": "upper",
+    "NewTypeName": "AVAudioSession.Location"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionMediaServicesWereLostNotification",
+    "OldPrintedName": "AVAudioSessionMediaServicesWereLost",
+    "OldTypeName": "NSNotification.Name",
+    "NewPrintedName": "mediaServicesWereLostNotification",
+    "NewTypeName": "AVAudioSession"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionMediaServicesWereResetNotification",
+    "OldPrintedName": "AVAudioSessionMediaServicesWereReset",
+    "OldTypeName": "NSNotification.Name",
+    "NewPrintedName": "mediaServicesWereResetNotification",
+    "NewTypeName": "AVAudioSession"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionModeDefault",
+    "OldPrintedName": "AVAudioSessionModeDefault",
+    "OldTypeName": "",
+    "NewPrintedName": "default",
+    "NewTypeName": "AVAudioSession.Mode"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionModeGameChat",
+    "OldPrintedName": "AVAudioSessionModeGameChat",
+    "OldTypeName": "",
+    "NewPrintedName": "gameChat",
+    "NewTypeName": "AVAudioSession.Mode"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionModeMeasurement",
+    "OldPrintedName": "AVAudioSessionModeMeasurement",
+    "OldTypeName": "",
+    "NewPrintedName": "measurement",
+    "NewTypeName": "AVAudioSession.Mode"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionModeMoviePlayback",
+    "OldPrintedName": "AVAudioSessionModeMoviePlayback",
+    "OldTypeName": "",
+    "NewPrintedName": "moviePlayback",
+    "NewTypeName": "AVAudioSession.Mode"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionModeSpokenAudio",
+    "OldPrintedName": "AVAudioSessionModeSpokenAudio",
+    "OldTypeName": "",
+    "NewPrintedName": "spokenAudio",
+    "NewTypeName": "AVAudioSession.Mode"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionModeVideoChat",
+    "OldPrintedName": "AVAudioSessionModeVideoChat",
+    "OldTypeName": "",
+    "NewPrintedName": "videoChat",
+    "NewTypeName": "AVAudioSession.Mode"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionModeVideoRecording",
+    "OldPrintedName": "AVAudioSessionModeVideoRecording",
+    "OldTypeName": "",
+    "NewPrintedName": "videoRecording",
+    "NewTypeName": "AVAudioSession.Mode"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionModeVoiceChat",
+    "OldPrintedName": "AVAudioSessionModeVoiceChat",
+    "OldTypeName": "",
+    "NewPrintedName": "voiceChat",
+    "NewTypeName": "AVAudioSession.Mode"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionModeVoicePrompt",
+    "OldPrintedName": "AVAudioSessionModeVoicePrompt",
+    "OldTypeName": "",
+    "NewPrintedName": "voicePrompt",
+    "NewTypeName": "AVAudioSession.Mode"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionOrientationBack",
+    "OldPrintedName": "AVAudioSessionOrientationBack",
+    "OldTypeName": "",
+    "NewPrintedName": "orientationBack",
+    "NewTypeName": "AVAudioSession.Location"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionOrientationBottom",
+    "OldPrintedName": "AVAudioSessionOrientationBottom",
+    "OldTypeName": "",
+    "NewPrintedName": "orientationBottom",
+    "NewTypeName": "AVAudioSession.Location"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionOrientationFront",
+    "OldPrintedName": "AVAudioSessionOrientationFront",
+    "OldTypeName": "",
+    "NewPrintedName": "orientationFront",
+    "NewTypeName": "AVAudioSession.Location"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionOrientationLeft",
+    "OldPrintedName": "AVAudioSessionOrientationLeft",
+    "OldTypeName": "",
+    "NewPrintedName": "orientationLeft",
+    "NewTypeName": "AVAudioSession.Location"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionOrientationRight",
+    "OldPrintedName": "AVAudioSessionOrientationRight",
+    "OldTypeName": "",
+    "NewPrintedName": "orientationRight",
+    "NewTypeName": "AVAudioSession.Location"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionOrientationTop",
+    "OldPrintedName": "AVAudioSessionOrientationTop",
+    "OldTypeName": "",
+    "NewPrintedName": "orientationTop",
+    "NewTypeName": "AVAudioSession.Location"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPolarPatternCardioid",
+    "OldPrintedName": "AVAudioSessionPolarPatternCardioid",
+    "OldTypeName": "",
+    "NewPrintedName": "polarPatternCardioid",
+    "NewTypeName": "AVAudioSession.Location"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPolarPatternOmnidirectional",
+    "OldPrintedName": "AVAudioSessionPolarPatternOmnidirectional",
+    "OldTypeName": "",
+    "NewPrintedName": "polarPatternOmnidirectional",
+    "NewTypeName": "AVAudioSession.Location"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPolarPatternSubcardioid",
+    "OldPrintedName": "AVAudioSessionPolarPatternSubcardioid",
+    "OldTypeName": "",
+    "NewPrintedName": "polarPatternSubcardioid",
+    "NewTypeName": "AVAudioSession.Location"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPortAirPlay",
+    "OldPrintedName": "AVAudioSessionPortAirPlay",
+    "OldTypeName": "",
+    "NewPrintedName": "airPlay",
+    "NewTypeName": "AVAudioSession.Port"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPortBluetoothA2DP",
+    "OldPrintedName": "AVAudioSessionPortBluetoothA2DP",
+    "OldTypeName": "",
+    "NewPrintedName": "bluetoothA2DP",
+    "NewTypeName": "AVAudioSession.Port"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPortBluetoothHFP",
+    "OldPrintedName": "AVAudioSessionPortBluetoothHFP",
+    "OldTypeName": "",
+    "NewPrintedName": "bluetoothHFP",
+    "NewTypeName": "AVAudioSession.Port"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPortBluetoothLE",
+    "OldPrintedName": "AVAudioSessionPortBluetoothLE",
+    "OldTypeName": "",
+    "NewPrintedName": "bluetoothLE",
+    "NewTypeName": "AVAudioSession.Port"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPortBuiltInMic",
+    "OldPrintedName": "AVAudioSessionPortBuiltInMic",
+    "OldTypeName": "",
+    "NewPrintedName": "builtInMic",
+    "NewTypeName": "AVAudioSession.Port"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPortBuiltInReceiver",
+    "OldPrintedName": "AVAudioSessionPortBuiltInReceiver",
+    "OldTypeName": "",
+    "NewPrintedName": "builtInReceiver",
+    "NewTypeName": "AVAudioSession.Port"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPortBuiltInSpeaker",
+    "OldPrintedName": "AVAudioSessionPortBuiltInSpeaker",
+    "OldTypeName": "",
+    "NewPrintedName": "builtInSpeaker",
+    "NewTypeName": "AVAudioSession.Port"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPortCarAudio",
+    "OldPrintedName": "AVAudioSessionPortCarAudio",
+    "OldTypeName": "",
+    "NewPrintedName": "carAudio",
+    "NewTypeName": "AVAudioSession.Port"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPortHDMI",
+    "OldPrintedName": "AVAudioSessionPortHDMI",
+    "OldTypeName": "",
+    "NewPrintedName": "HDMI",
+    "NewTypeName": "AVAudioSession.Port"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPortHeadphones",
+    "OldPrintedName": "AVAudioSessionPortHeadphones",
+    "OldTypeName": "",
+    "NewPrintedName": "headphones",
+    "NewTypeName": "AVAudioSession.Port"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPortHeadsetMic",
+    "OldPrintedName": "AVAudioSessionPortHeadsetMic",
+    "OldTypeName": "",
+    "NewPrintedName": "headsetMic",
+    "NewTypeName": "AVAudioSession.Port"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPortLineIn",
+    "OldPrintedName": "AVAudioSessionPortLineIn",
+    "OldTypeName": "",
+    "NewPrintedName": "lineIn",
+    "NewTypeName": "AVAudioSession.Port"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPortLineOut",
+    "OldPrintedName": "AVAudioSessionPortLineOut",
+    "OldTypeName": "",
+    "NewPrintedName": "lineOut",
+    "NewTypeName": "AVAudioSession.Port"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionPortUSBAudio",
+    "OldPrintedName": "AVAudioSessionPortUSBAudio",
+    "OldTypeName": "",
+    "NewPrintedName": "usbAudio",
+    "NewTypeName": "AVAudioSession.Port"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionRouteChangeNotification",
+    "OldPrintedName": "AVAudioSessionRouteChange",
+    "OldTypeName": "NSNotification.Name",
+    "NewPrintedName": "routeChangeNotification",
+    "NewTypeName": "AVAudioSession"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@AVAudioSessionSilenceSecondaryAudioHintNotification",
+    "OldPrintedName": "AVAudioSessionSilenceSecondaryAudioHint",
+    "OldTypeName": "NSNotification.Name",
+    "NewPrintedName": "silenceSecondaryAudioHintNotification",
+    "NewTypeName": "AVAudioSession"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@CKQueryOperationMaximumResults",
+    "OldPrintedName": "CKQueryOperationMaximumResults",
+    "OldTypeName": "",
+    "NewPrintedName": "maximumResults",
+    "NewTypeName": "CKQueryOperation"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@E@NSUnderlineStyle@NSUnderlineStyleDouble",
+    "OldPrintedName": "styleDouble",
+    "OldTypeName": "NSUnderlineStyle",
+    "NewPrintedName": "double",
+    "NewTypeName": "NSUnderlineStyle"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@E@NSUnderlineStyle@NSUnderlineStyleSingle",
+    "OldPrintedName": "styleSingle",
+    "OldTypeName": "NSUnderlineStyle",
+    "NewPrintedName": "single",
+    "NewTypeName": "NSUnderlineStyle"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@E@NSUnderlineStyle@NSUnderlineStyleThick",
+    "OldPrintedName": "styleThick",
+    "OldTypeName": "NSUnderlineStyle",
+    "NewPrintedName": "thick",
+    "NewTypeName": "NSUnderlineStyle"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@CGAffineTransformFromString",
+    "OldPrintedName": "CGAffineTransformFromString(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "cgAffineTransform(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@CGPointFromString",
+    "OldPrintedName": "CGPointFromString(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "cgPoint(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@CGRectFromString",
+    "OldPrintedName": "CGRectFromString(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "cgRect(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@CGSizeFromString",
+    "OldPrintedName": "CGSizeFromString(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "cgSize(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@CGVectorFromString",
+    "OldPrintedName": "CGVectorFromString(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "cgVector(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKCoordinateRegionForMapRect",
+    "OldPrintedName": "MKCoordinateRegionForMapRect(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "init(_:)",
+    "NewTypeName": "MKCoordinateRegion"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKCoordinateRegionMake",
+    "OldPrintedName": "MKCoordinateRegionMake(_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "init(center:span:)",
+    "NewTypeName": "MKCoordinateRegion"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKCoordinateRegionMakeWithDistance",
+    "OldPrintedName": "MKCoordinateRegionMakeWithDistance(_:_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "init(center:latitudinalMeters:longitudinalMeters:)",
+    "NewTypeName": "MKCoordinateRegion"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKCoordinateSpanMake",
+    "OldPrintedName": "MKCoordinateSpanMake(_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "init(latitudeDelta:longitudeDelta:)",
+    "NewTypeName": "MKCoordinateSpan"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKMapPointForCoordinate",
+    "OldPrintedName": "MKMapPointForCoordinate(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "init(_:)",
+    "NewTypeName": "MKMapPoint"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKMapPointMake",
+    "OldPrintedName": "MKMapPointMake(_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "init(x:y:)",
+    "NewTypeName": "MKMapPoint"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKMapRectContainsPoint",
+    "OldPrintedName": "MKMapRectContainsPoint(_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "contains(_:)",
+    "NewTypeName": "MKMapRect",
+    "SelfIndex": 0
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKMapRectContainsRect",
+    "OldPrintedName": "MKMapRectContainsRect(_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "contains(_:)",
+    "NewTypeName": "MKMapRect",
+    "SelfIndex": 0
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKMapRectInset",
+    "OldPrintedName": "MKMapRectInset(_:_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "insetBy(dx:dy:)",
+    "NewTypeName": "MKMapRect",
+    "SelfIndex": 0
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKMapRectIntersection",
+    "OldPrintedName": "MKMapRectIntersection(_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "intersection(_:)",
+    "NewTypeName": "MKMapRect",
+    "SelfIndex": 0
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKMapRectIntersectsRect",
+    "OldPrintedName": "MKMapRectIntersectsRect(_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "intersects(_:)",
+    "NewTypeName": "MKMapRect",
+    "SelfIndex": 0
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKMapRectMake",
+    "OldPrintedName": "MKMapRectMake(_:_:_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "init(x:y:width:height:)",
+    "NewTypeName": "MKMapRect"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKMapRectOffset",
+    "OldPrintedName": "MKMapRectOffset(_:_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "offsetBy(dx:dy:)",
+    "NewTypeName": "MKMapRect",
+    "SelfIndex": 0
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKMapRectUnion",
+    "OldPrintedName": "MKMapRectUnion(_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "union(_:)",
+    "NewTypeName": "MKMapRect",
+    "SelfIndex": 0
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKMapSizeMake",
+    "OldPrintedName": "MKMapSizeMake(_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "init(width:height:)",
+    "NewTypeName": "MKMapSize"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@MKMetersBetweenMapPoints",
+    "OldPrintedName": "MKMetersBetweenMapPoints(_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "distance(to:)",
+    "NewTypeName": "MKMapPoint",
+    "SelfIndex": 0
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@NSDirectionalEdgeInsetsFromString",
+    "OldPrintedName": "NSDirectionalEdgeInsetsFromString(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "nsDirectionalEdgeInsets(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@NSDirectionalEdgeInsetsMake",
+    "OldPrintedName": "NSDirectionalEdgeInsetsMake(_:_:_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "init(top:leading:bottom:trailing:)",
+    "NewTypeName": "NSDirectionalEdgeInsets"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@NSStringFromCGAffineTransform",
+    "OldPrintedName": "NSStringFromCGAffineTransform(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "string(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@NSStringFromCGPoint",
+    "OldPrintedName": "NSStringFromCGPoint(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "string(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@NSStringFromCGRect",
+    "OldPrintedName": "NSStringFromCGRect(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "string(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@NSStringFromCGSize",
+    "OldPrintedName": "NSStringFromCGSize(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "string(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@NSStringFromCGVector",
+    "OldPrintedName": "NSStringFromCGVector(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "string(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@NSStringFromDirectionalEdgeInsets",
+    "OldPrintedName": "NSStringFromDirectionalEdgeInsets(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "string(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@NSStringFromUIEdgeInsets",
+    "OldPrintedName": "NSStringFromUIEdgeInsets(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "string(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@NSStringFromUIOffset",
+    "OldPrintedName": "NSStringFromUIOffset(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "string(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@NSTextAlignmentFromCTTextAlignment",
+    "OldPrintedName": "NSTextAlignmentFromCTTextAlignment(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "init(_:)",
+    "NewTypeName": "NSTextAlignment"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@NSTextAlignmentToCTTextAlignment",
+    "OldPrintedName": "NSTextAlignmentToCTTextAlignment(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "init(_:)",
+    "NewTypeName": "CTTextAlignment"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@UIEdgeInsetsFromString",
+    "OldPrintedName": "UIEdgeInsetsFromString(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "uiEdgeInsets(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@UIEdgeInsetsInsetRect",
+    "OldPrintedName": "UIEdgeInsetsInsetRect(_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "inset(by:)",
+    "NewTypeName": "CGRect",
+    "SelfIndex": 0
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@UIEdgeInsetsMake",
+    "OldPrintedName": "UIEdgeInsetsMake(_:_:_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "init(top:left:bottom:right:)",
+    "NewTypeName": "UIEdgeInsets"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@UIImageJPEGRepresentation",
+    "OldPrintedName": "UIImageJPEGRepresentation(_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "jpegData(compressionQuality:)",
+    "NewTypeName": "UIImage",
+    "SelfIndex": 0
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@UIImagePNGRepresentation",
+    "OldPrintedName": "UIImagePNGRepresentation(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "pngData()",
+    "NewTypeName": "UIImage",
+    "SelfIndex": 0
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@UIOffsetFromString",
+    "OldPrintedName": "UIOffsetFromString(_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "uiOffset(for:)",
+    "NewTypeName": "NSCoder"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@F@UIOffsetMake",
+    "OldPrintedName": "UIOffsetMake(_:_:)",
+    "OldTypeName": "",
+    "NewPrintedName": "init(horizontal:vertical:)",
+    "NewTypeName": "UIOffset"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@MKMapRectNull",
+    "OldPrintedName": "MKMapRectNull",
+    "OldTypeName": "",
+    "NewPrintedName": "null",
+    "NewTypeName": "MKMapRect"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@MKMapRectWorld",
+    "OldPrintedName": "MKMapRectWorld",
+    "OldTypeName": "",
+    "NewPrintedName": "world",
+    "NewTypeName": "MKMapRect"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@MKMapSizeWorld",
+    "OldPrintedName": "MKMapSizeWorld",
+    "OldTypeName": "",
+    "NewPrintedName": "world",
+    "NewTypeName": "MKMapSize"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@NSDefaultRunLoopMode",
+    "OldPrintedName": "defaultRunLoopMode",
+    "OldTypeName": "RunLoop.Mode",
+    "NewPrintedName": "default",
+    "NewTypeName": "RunLoop.Mode"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@NSRunLoopCommonModes",
+    "OldPrintedName": "commonModes",
+    "OldTypeName": "RunLoop.Mode",
+    "NewPrintedName": "common",
+    "NewTypeName": "RunLoop.Mode"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityAnnouncementDidFinishNotification",
+    "OldPrintedName": "UIAccessibilityAnnouncementDidFinish",
+    "OldTypeName": "NSNotification.Name",
+    "NewPrintedName": "announcementDidFinishNotification",
+    "NewTypeName": "UIAccessibility"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityAnnouncementKeyStringValue",
+    "OldPrintedName": "UIAccessibilityAnnouncementKeyStringValue",
+    "OldTypeName": "",
+    "NewPrintedName": "announcementStringValueUserInfoKey",
+    "NewTypeName": "UIAccessibility"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityAnnouncementKeyWasSuccessful",
+    "OldPrintedName": "UIAccessibilityAnnouncementKeyWasSuccessful",
+    "OldTypeName": "",
+    "NewPrintedName": "announcementWasSuccessfulUserInfoKey",
+    "NewTypeName": "UIAccessibility"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityAnnouncementNotification",
+    "OldPrintedName": "UIAccessibilityAnnouncementNotification",
+    "OldTypeName": "",
+    "NewPrintedName": "announcement",
+    "NewTypeName": "UIAccessibility.Notification"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityAssistiveTechnologyKey",
+    "OldPrintedName": "UIAccessibilityAssistiveTechnologyKey",
+    "OldTypeName": "",
+    "NewPrintedName": "assistiveTechnologyUserInfoKey",
+    "NewTypeName": "UIAccessibility"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityElementFocusedNotification",
+    "OldPrintedName": "UIAccessibilityElementFocused",
+    "OldTypeName": "NSNotification.Name",
+    "NewPrintedName": "elementFocusedNotification",
+    "NewTypeName": "UIAccessibility"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityFocusedElementKey",
+    "OldPrintedName": "UIAccessibilityFocusedElementKey",
+    "OldTypeName": "",
+    "NewPrintedName": "focusedElementUserInfoKey",
+    "NewTypeName": "UIAccessibility"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityLayoutChangedNotification",
+    "OldPrintedName": "UIAccessibilityLayoutChangedNotification",
+    "OldTypeName": "",
+    "NewPrintedName": "layoutChanged",
+    "NewTypeName": "UIAccessibility.Notification"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityNotificationSwitchControlIdentifier",
+    "OldPrintedName": "UIAccessibilityNotificationSwitchControlIdentifier",
+    "OldTypeName": "",
+    "NewPrintedName": "notificationSwitchControl",
+    "NewTypeName": "UIAccessibility.AssistiveTechnologyIdentifier"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityNotificationVoiceOverIdentifier",
+    "OldPrintedName": "UIAccessibilityNotificationVoiceOverIdentifier",
+    "OldTypeName": "",
+    "NewPrintedName": "notificationVoiceOver",
+    "NewTypeName": "UIAccessibility.AssistiveTechnologyIdentifier"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityPageScrolledNotification",
+    "OldPrintedName": "UIAccessibilityPageScrolledNotification",
+    "OldTypeName": "",
+    "NewPrintedName": "pageScrolled",
+    "NewTypeName": "UIAccessibility.Notification"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityPauseAssistiveTechnologyNotification",
+    "OldPrintedName": "UIAccessibilityPauseAssistiveTechnologyNotification",
+    "OldTypeName": "",
+    "NewPrintedName": "pauseAssistiveTechnology",
+    "NewTypeName": "UIAccessibility.Notification"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityResumeAssistiveTechnologyNotification",
+    "OldPrintedName": "UIAccessibilityResumeAssistiveTechnologyNotification",
+    "OldTypeName": "",
+    "NewPrintedName": "resumeAssistiveTechnology",
+    "NewTypeName": "UIAccessibility.Notification"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityScreenChangedNotification",
+    "OldPrintedName": "UIAccessibilityScreenChangedNotification",
+    "OldTypeName": "",
+    "NewPrintedName": "screenChanged",
+    "NewTypeName": "UIAccessibility.Notification"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilitySpeechAttributeIPANotation",
+    "OldPrintedName": "UIAccessibilitySpeechAttributeIPANotation",
+    "OldTypeName": "",
+    "NewPrintedName": "accessibilitySpeechIPANotation",
+    "NewTypeName": "NSAttributedString.Key"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilitySpeechAttributeLanguage",
+    "OldPrintedName": "UIAccessibilitySpeechAttributeLanguage",
+    "OldTypeName": "",
+    "NewPrintedName": "accessibilitySpeechLanguage",
+    "NewTypeName": "NSAttributedString.Key"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilitySpeechAttributePitch",
+    "OldPrintedName": "UIAccessibilitySpeechAttributePitch",
+    "OldTypeName": "",
+    "NewPrintedName": "accessibilitySpeechPitch",
+    "NewTypeName": "NSAttributedString.Key"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilitySpeechAttributePunctuation",
+    "OldPrintedName": "UIAccessibilitySpeechAttributePunctuation",
+    "OldTypeName": "",
+    "NewPrintedName": "accessibilitySpeechPunctuation",
+    "NewTypeName": "NSAttributedString.Key"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilitySpeechAttributeQueueAnnouncement",
+    "OldPrintedName": "UIAccessibilitySpeechAttributeQueueAnnouncement",
+    "OldTypeName": "",
+    "NewPrintedName": "accessibilitySpeechQueueAnnouncement",
+    "NewTypeName": "NSAttributedString.Key"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTextAttributeCustom",
+    "OldPrintedName": "UIAccessibilityTextAttributeCustom",
+    "OldTypeName": "",
+    "NewPrintedName": "accessibilityTextCustom",
+    "NewTypeName": "NSAttributedString.Key"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTextAttributeHeadingLevel",
+    "OldPrintedName": "UIAccessibilityTextAttributeHeadingLevel",
+    "OldTypeName": "",
+    "NewPrintedName": "accessibilityTextHeadingLevel",
+    "NewTypeName": "NSAttributedString.Key"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitAdjustable",
+    "OldPrintedName": "UIAccessibilityTraitAdjustable",
+    "OldTypeName": "",
+    "NewPrintedName": "adjustable",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitAllowsDirectInteraction",
+    "OldPrintedName": "UIAccessibilityTraitAllowsDirectInteraction",
+    "OldTypeName": "",
+    "NewPrintedName": "allowsDirectInteraction",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitButton",
+    "OldPrintedName": "UIAccessibilityTraitButton",
+    "OldTypeName": "",
+    "NewPrintedName": "button",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitCausesPageTurn",
+    "OldPrintedName": "UIAccessibilityTraitCausesPageTurn",
+    "OldTypeName": "",
+    "NewPrintedName": "causesPageTurn",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitHeader",
+    "OldPrintedName": "UIAccessibilityTraitHeader",
+    "OldTypeName": "",
+    "NewPrintedName": "header",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitImage",
+    "OldPrintedName": "UIAccessibilityTraitImage",
+    "OldTypeName": "",
+    "NewPrintedName": "image",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitKeyboardKey",
+    "OldPrintedName": "UIAccessibilityTraitKeyboardKey",
+    "OldTypeName": "",
+    "NewPrintedName": "keyboardKey",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitLink",
+    "OldPrintedName": "UIAccessibilityTraitLink",
+    "OldTypeName": "",
+    "NewPrintedName": "link",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitNone",
+    "OldPrintedName": "UIAccessibilityTraitNone",
+    "OldTypeName": "",
+    "NewPrintedName": "none",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitNotEnabled",
+    "OldPrintedName": "UIAccessibilityTraitNotEnabled",
+    "OldTypeName": "",
+    "NewPrintedName": "notEnabled",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitPlaysSound",
+    "OldPrintedName": "UIAccessibilityTraitPlaysSound",
+    "OldTypeName": "",
+    "NewPrintedName": "playsSound",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitSearchField",
+    "OldPrintedName": "UIAccessibilityTraitSearchField",
+    "OldTypeName": "",
+    "NewPrintedName": "searchField",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitSelected",
+    "OldPrintedName": "UIAccessibilityTraitSelected",
+    "OldTypeName": "",
+    "NewPrintedName": "selected",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitStartsMediaSession",
+    "OldPrintedName": "UIAccessibilityTraitStartsMediaSession",
+    "OldTypeName": "",
+    "NewPrintedName": "startsMediaSession",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitStaticText",
+    "OldPrintedName": "UIAccessibilityTraitStaticText",
+    "OldTypeName": "",
+    "NewPrintedName": "staticText",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitSummaryElement",
+    "OldPrintedName": "UIAccessibilityTraitSummaryElement",
+    "OldTypeName": "",
+    "NewPrintedName": "summaryElement",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitTabBar",
+    "OldPrintedName": "UIAccessibilityTraitTabBar",
+    "OldTypeName": "",
+    "NewPrintedName": "tabBar",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityTraitUpdatesFrequently",
+    "OldPrintedName": "UIAccessibilityTraitUpdatesFrequently",
+    "OldTypeName": "",
+    "NewPrintedName": "updatesFrequently",
+    "NewTypeName": "UIAccessibilityTraits"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIAccessibilityUnfocusedElementKey",
+    "OldPrintedName": "UIAccessibilityUnfocusedElementKey",
+    "OldTypeName": "",
+    "NewPrintedName": "unfocusedElementUserInfoKey",
+    "NewTypeName": "UIAccessibility"
+  },
+  {
+    "DiffItemKind": "TypeMemberDiffItem",
+    "Usr": "c:@UIFontSymbolicTrait",
+    "OldPrintedName": "symbolic",
+    "OldTypeName": "UIFontDescriptor.AttributeName",
+    "NewPrintedName": "symbolic",
+    "NewTypeName": "UIFontDescriptor.TraitKey"
+  },
+  {
+    "DiffItemKind": "CommonDiffItem",
+    "NodeKind": "Var",
+    "NodeAnnotation": "WrapOptional",
+    "ChildIndex": "0",
+    "LeftUsr": "c:objc(cs)CKAsset(py)fileURL",
+    "LeftComment": "",
+    "RightUsr": "",
+    "RightComment": "",
+    "ModuleName": "CloudKit"
+  }
+]

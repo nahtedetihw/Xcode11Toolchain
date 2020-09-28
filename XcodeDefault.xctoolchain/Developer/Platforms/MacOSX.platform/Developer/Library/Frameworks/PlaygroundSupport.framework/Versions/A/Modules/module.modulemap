@@ -1,0 +1,11 @@
+framework module PlaygroundSupport {
+  umbrella header "PlaygroundSupport.h"
+
+  export *
+  module * { export * }
+}
+
+module PlaygroundSupport.Swift {
+    header "PlaygroundSupport-Swift.h"
+    requires objc
+}

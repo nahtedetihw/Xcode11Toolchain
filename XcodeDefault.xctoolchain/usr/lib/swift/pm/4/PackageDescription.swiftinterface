@@ -1,0 +1,350 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
+// swift-module-flags: -target x86_64-apple-darwin18.0.0 -enable-objc-interop -enable-library-evolution -module-link-name PackageDescription -swift-version 5 -module-name PackageDescription
+import Darwin.C
+import Darwin
+import Foundation
+import Swift
+public struct BuildConfiguration : Swift.Encodable {
+  public static var debug: PackageDescription.BuildConfiguration
+  public static var release: PackageDescription.BuildConfiguration
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct BuildSettingCondition : Swift.Encodable {
+  public static func when(platforms: [PackageDescription.Platform]? = nil, configuration: PackageDescription.BuildConfiguration? = nil) -> PackageDescription.BuildSettingCondition
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CSetting : Swift.Encodable {
+  public static func headerSearchPath(_ path: Swift.String, _ condition: PackageDescription.BuildSettingCondition? = nil) -> PackageDescription.CSetting
+  public static func define(_ name: Swift.String, to value: Swift.String? = nil, _ condition: PackageDescription.BuildSettingCondition? = nil) -> PackageDescription.CSetting
+  public static func unsafeFlags(_ flags: [Swift.String], _ condition: PackageDescription.BuildSettingCondition? = nil) -> PackageDescription.CSetting
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CXXSetting : Swift.Encodable {
+  public static func headerSearchPath(_ path: Swift.String, _ condition: PackageDescription.BuildSettingCondition? = nil) -> PackageDescription.CXXSetting
+  public static func define(_ name: Swift.String, to value: Swift.String? = nil, _ condition: PackageDescription.BuildSettingCondition? = nil) -> PackageDescription.CXXSetting
+  public static func unsafeFlags(_ flags: [Swift.String], _ condition: PackageDescription.BuildSettingCondition? = nil) -> PackageDescription.CXXSetting
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct SwiftSetting : Swift.Encodable {
+  public static func define(_ name: Swift.String, _ condition: PackageDescription.BuildSettingCondition? = nil) -> PackageDescription.SwiftSetting
+  public static func unsafeFlags(_ flags: [Swift.String], _ condition: PackageDescription.BuildSettingCondition? = nil) -> PackageDescription.SwiftSetting
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct LinkerSetting : Swift.Encodable {
+  public static func linkedLibrary(_ library: Swift.String, _ condition: PackageDescription.BuildSettingCondition? = nil) -> PackageDescription.LinkerSetting
+  public static func linkedFramework(_ framework: Swift.String, _ condition: PackageDescription.BuildSettingCondition? = nil) -> PackageDescription.LinkerSetting
+  public static func unsafeFlags(_ flags: [Swift.String], _ condition: PackageDescription.BuildSettingCondition? = nil) -> PackageDescription.LinkerSetting
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public enum CLanguageStandard : Swift.String, Swift.Encodable {
+  case c89
+  case c90
+  case iso9899_1990
+  case iso9899_199409
+  case gnu89
+  case gnu90
+  case c99
+  case iso9899_1999
+  case gnu99
+  case c11
+  case iso9899_2011
+  case gnu11
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CXXLanguageStandard : Swift.String, Swift.Encodable {
+  case cxx98
+  case cxx03
+  case gnucxx98
+  case gnucxx03
+  case cxx11
+  case gnucxx11
+  case cxx14
+  case gnucxx14
+  case cxx1z
+  case gnucxx1z
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+final public class Package {
+  @_hasMissingDesignatedInitializers public class Dependency : Swift.Encodable {
+    public enum Requirement {
+      case exactItem(PackageDescription.Version)
+      case rangeItem(Swift.Range<PackageDescription.Version>)
+      case revisionItem(Swift.String)
+      case branchItem(Swift.String)
+      case localPackageItem
+    }
+    final public let name: Swift.String?
+    final public let url: Swift.String
+    final public let requirement: PackageDescription.Package.Dependency.Requirement
+    @objc deinit
+    public func encode(to encoder: Swift.Encoder) throws
+  }
+  final public var name: Swift.String
+  final public var pkgConfig: Swift.String?
+  final public var providers: [PackageDescription.SystemPackageProvider]?
+  final public var targets: [PackageDescription.Target]
+  final public var products: [PackageDescription.Product]
+  final public var dependencies: [PackageDescription.Package.Dependency]
+  final public var swiftLanguageVersions: [Swift.Int]?
+  final public var cLanguageStandard: PackageDescription.CLanguageStandard?
+  final public var cxxLanguageStandard: PackageDescription.CXXLanguageStandard?
+  public init(name: Swift.String, pkgConfig: Swift.String? = nil, providers: [PackageDescription.SystemPackageProvider]? = nil, products: [PackageDescription.Product] = [], dependencies: [PackageDescription.Package.Dependency] = [], targets: [PackageDescription.Target] = [], swiftLanguageVersions: [Swift.Int]? = nil, cLanguageStandard: PackageDescription.CLanguageStandard? = nil, cxxLanguageStandard: PackageDescription.CXXLanguageStandard? = nil)
+  @objc deinit
+}
+public enum SystemPackageProvider {
+  case brewItem([Swift.String])
+  case aptItem([Swift.String])
+  public static func brew(_ packages: [Swift.String]) -> PackageDescription.SystemPackageProvider
+  public static func apt(_ packages: [Swift.String]) -> PackageDescription.SystemPackageProvider
+}
+extension Package : Swift.Encodable {
+  final public func encode(to encoder: Swift.Encoder) throws
+}
+extension SystemPackageProvider : Swift.Encodable {
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension Target.Dependency : Swift.Encodable {
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension Package.Dependency {
+  @available(_PackageDescription, obsoleted: 5.2)
+  public static func package(url: Swift.String, from version: PackageDescription.Version) -> PackageDescription.Package.Dependency
+  @available(_PackageDescription 5.2)
+  public static func package(name: Swift.String? = nil, url: Swift.String, from version: PackageDescription.Version) -> PackageDescription.Package.Dependency
+  @available(_PackageDescription, obsoleted: 5.2)
+  public static func package(url: Swift.String, _ requirement: PackageDescription.Package.Dependency.Requirement) -> PackageDescription.Package.Dependency
+  @available(_PackageDescription 5.2)
+  public static func package(name: Swift.String? = nil, url: Swift.String, _ requirement: PackageDescription.Package.Dependency.Requirement) -> PackageDescription.Package.Dependency
+  @available(_PackageDescription, obsoleted: 5.2)
+  public static func package(url: Swift.String, _ range: Swift.Range<PackageDescription.Version>) -> PackageDescription.Package.Dependency
+  @available(_PackageDescription 5.2)
+  public static func package(name: Swift.String? = nil, url: Swift.String, _ range: Swift.Range<PackageDescription.Version>) -> PackageDescription.Package.Dependency
+  @available(_PackageDescription, obsoleted: 5.2)
+  public static func package(url: Swift.String, _ range: Swift.ClosedRange<PackageDescription.Version>) -> PackageDescription.Package.Dependency
+  @available(_PackageDescription 5.2)
+  public static func package(name: Swift.String? = nil, url: Swift.String, _ range: Swift.ClosedRange<PackageDescription.Version>) -> PackageDescription.Package.Dependency
+}
+extension Package.Dependency {
+  @available(*, unavailable, message: "use package(url:_:) with the .exact(Version) initializer instead")
+  public static func package(url: Swift.String, version: PackageDescription.Version) -> PackageDescription.Package.Dependency
+  @available(*, unavailable, message: "use package(url:_:) with the .branch(String) initializer instead")
+  public static func package(url: Swift.String, branch: Swift.String) -> PackageDescription.Package.Dependency
+  @available(*, unavailable, message: "use package(url:_:) with the .revision(String) initializer instead")
+  public static func package(url: Swift.String, revision: Swift.String) -> PackageDescription.Package.Dependency
+  @available(*, unavailable, message: "use package(url:_:) without the range label instead")
+  public static func package(url: Swift.String, range: Swift.Range<PackageDescription.Version>) -> PackageDescription.Package.Dependency
+}
+extension Package.Dependency.Requirement : Swift.Encodable {
+  public static func exact(_ version: PackageDescription.Version) -> PackageDescription.Package.Dependency.Requirement
+  public static func revision(_ ref: Swift.String) -> PackageDescription.Package.Dependency.Requirement
+  public static func branch(_ name: Swift.String) -> PackageDescription.Package.Dependency.Requirement
+  public static func upToNextMajor(from version: PackageDescription.Version) -> PackageDescription.Package.Dependency.Requirement
+  public static func upToNextMinor(from version: PackageDescription.Version) -> PackageDescription.Package.Dependency.Requirement
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers public class Product : Swift.Encodable {
+  final public let name: Swift.String
+  @_hasMissingDesignatedInitializers final public class Executable : PackageDescription.Product {
+    final public let targets: [Swift.String]
+    override final public func encode(to encoder: Swift.Encoder) throws
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers final public class Library : PackageDescription.Product {
+    public enum LibraryType : Swift.String, Swift.Encodable {
+      case `static`
+      case dynamic
+      public typealias RawValue = Swift.String
+      public init?(rawValue: Swift.String)
+      public var rawValue: Swift.String {
+        get
+      }
+    }
+    final public let targets: [Swift.String]
+    final public let type: PackageDescription.Product.Library.LibraryType?
+    override final public func encode(to encoder: Swift.Encoder) throws
+    @objc deinit
+  }
+  public static func library(name: Swift.String, type: PackageDescription.Product.Library.LibraryType? = nil, targets: [Swift.String]) -> PackageDescription.Product
+  public static func executable(name: Swift.String, targets: [Swift.String]) -> PackageDescription.Product
+  public func encode(to encoder: Swift.Encoder) throws
+  @objc deinit
+}
+public struct Platform : Swift.Encodable {
+  public static var macOS: PackageDescription.Platform
+  public static var iOS: PackageDescription.Platform
+  public static var tvOS: PackageDescription.Platform
+  public static var watchOS: PackageDescription.Platform
+  public static var linux: PackageDescription.Platform
+  @available(_PackageDescription 5.2)
+  public static var windows: PackageDescription.Platform
+  @available(_PackageDescription 5.2)
+  public static var android: PackageDescription.Platform
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct SupportedPlatform : Swift.Encodable {
+  public static func macOS(_ version: PackageDescription.SupportedPlatform.MacOSVersion) -> PackageDescription.SupportedPlatform
+  public static func macOS(_ versionString: Swift.String) -> PackageDescription.SupportedPlatform
+  public static func iOS(_ version: PackageDescription.SupportedPlatform.IOSVersion) -> PackageDescription.SupportedPlatform
+  public static func iOS(_ versionString: Swift.String) -> PackageDescription.SupportedPlatform
+  public static func tvOS(_ version: PackageDescription.SupportedPlatform.TVOSVersion) -> PackageDescription.SupportedPlatform
+  public static func tvOS(_ versionString: Swift.String) -> PackageDescription.SupportedPlatform
+  public static func watchOS(_ version: PackageDescription.SupportedPlatform.WatchOSVersion) -> PackageDescription.SupportedPlatform
+  public static func watchOS(_ versionString: Swift.String) -> PackageDescription.SupportedPlatform
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension SupportedPlatform {
+  public struct MacOSVersion : Swift.Encodable {
+    public static var v10_10: PackageDescription.SupportedPlatform.MacOSVersion
+    public static var v10_11: PackageDescription.SupportedPlatform.MacOSVersion
+    public static var v10_12: PackageDescription.SupportedPlatform.MacOSVersion
+    public static var v10_13: PackageDescription.SupportedPlatform.MacOSVersion
+    public static var v10_14: PackageDescription.SupportedPlatform.MacOSVersion
+    @available(_PackageDescription 5.1)
+    public static var v10_15: PackageDescription.SupportedPlatform.MacOSVersion
+    public func encode(to encoder: Swift.Encoder) throws
+  }
+  public struct TVOSVersion : Swift.Encodable {
+    public static var v9: PackageDescription.SupportedPlatform.TVOSVersion
+    public static var v10: PackageDescription.SupportedPlatform.TVOSVersion
+    public static var v11: PackageDescription.SupportedPlatform.TVOSVersion
+    public static var v12: PackageDescription.SupportedPlatform.TVOSVersion
+    @available(_PackageDescription 5.1)
+    public static var v13: PackageDescription.SupportedPlatform.TVOSVersion
+    public func encode(to encoder: Swift.Encoder) throws
+  }
+  public struct IOSVersion : Swift.Encodable {
+    public static var v8: PackageDescription.SupportedPlatform.IOSVersion
+    public static var v9: PackageDescription.SupportedPlatform.IOSVersion
+    public static var v10: PackageDescription.SupportedPlatform.IOSVersion
+    public static var v11: PackageDescription.SupportedPlatform.IOSVersion
+    public static var v12: PackageDescription.SupportedPlatform.IOSVersion
+    @available(_PackageDescription 5.1)
+    public static var v13: PackageDescription.SupportedPlatform.IOSVersion
+    public func encode(to encoder: Swift.Encoder) throws
+  }
+  public struct WatchOSVersion : Swift.Encodable {
+    public static var v2: PackageDescription.SupportedPlatform.WatchOSVersion
+    public static var v3: PackageDescription.SupportedPlatform.WatchOSVersion
+    public static var v4: PackageDescription.SupportedPlatform.WatchOSVersion
+    public static var v5: PackageDescription.SupportedPlatform.WatchOSVersion
+    @available(_PackageDescription 5.1)
+    public static var v6: PackageDescription.SupportedPlatform.WatchOSVersion
+    public func encode(to encoder: Swift.Encoder) throws
+  }
+}
+@_hasMissingDesignatedInitializers final public class Target {
+  public enum TargetType : Swift.String, Swift.Encodable {
+    case regular
+    case test
+    case system
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum Dependency {
+    case targetItem(name: Swift.String)
+    case productItem(name: Swift.String, package: Swift.String?)
+    case byNameItem(name: Swift.String)
+  }
+  final public var name: Swift.String
+  final public var path: Swift.String?
+  final public var sources: [Swift.String]?
+  final public var exclude: [Swift.String]
+  final public var isTest: Swift.Bool {
+    get
+  }
+  final public var dependencies: [PackageDescription.Target.Dependency]
+  final public var publicHeadersPath: Swift.String?
+  final public let type: PackageDescription.Target.TargetType
+  final public let pkgConfig: Swift.String?
+  final public let providers: [PackageDescription.SystemPackageProvider]?
+  @available(_PackageDescription 5)
+  final public var cSettings: [PackageDescription.CSetting]? {
+    get
+    set(newValue)
+  }
+  @available(_PackageDescription 5)
+  final public var cxxSettings: [PackageDescription.CXXSetting]? {
+    get
+    set(newValue)
+  }
+  @available(_PackageDescription 5)
+  final public var swiftSettings: [PackageDescription.SwiftSetting]? {
+    get
+    set(newValue)
+  }
+  @available(_PackageDescription 5)
+  final public var linkerSettings: [PackageDescription.LinkerSetting]? {
+    get
+    set(newValue)
+  }
+  @available(_PackageDescription, introduced: 4, obsoleted: 5)
+  public static func target(name: Swift.String, dependencies: [PackageDescription.Target.Dependency] = [], path: Swift.String? = nil, exclude: [Swift.String] = [], sources: [Swift.String]? = nil, publicHeadersPath: Swift.String? = nil) -> PackageDescription.Target
+  @available(_PackageDescription 5)
+  public static func target(name: Swift.String, dependencies: [PackageDescription.Target.Dependency] = [], path: Swift.String? = nil, exclude: [Swift.String] = [], sources: [Swift.String]? = nil, publicHeadersPath: Swift.String? = nil, cSettings: [PackageDescription.CSetting]? = nil, cxxSettings: [PackageDescription.CXXSetting]? = nil, swiftSettings: [PackageDescription.SwiftSetting]? = nil, linkerSettings: [PackageDescription.LinkerSetting]? = nil) -> PackageDescription.Target
+  @available(_PackageDescription, introduced: 4, obsoleted: 5)
+  public static func testTarget(name: Swift.String, dependencies: [PackageDescription.Target.Dependency] = [], path: Swift.String? = nil, exclude: [Swift.String] = [], sources: [Swift.String]? = nil) -> PackageDescription.Target
+  @available(_PackageDescription 5)
+  public static func testTarget(name: Swift.String, dependencies: [PackageDescription.Target.Dependency] = [], path: Swift.String? = nil, exclude: [Swift.String] = [], sources: [Swift.String]? = nil, cSettings: [PackageDescription.CSetting]? = nil, cxxSettings: [PackageDescription.CXXSetting]? = nil, swiftSettings: [PackageDescription.SwiftSetting]? = nil, linkerSettings: [PackageDescription.LinkerSetting]? = nil) -> PackageDescription.Target
+  @objc deinit
+}
+extension Target : Swift.Encodable {
+  final public func encode(to encoder: Swift.Encoder) throws
+}
+extension Target.Dependency {
+  public static func target(name: Swift.String) -> PackageDescription.Target.Dependency
+  @available(_PackageDescription, obsoleted: 5.2, message: "the 'package' argument is mandatory as of tools version 5.2")
+  public static func product(name: Swift.String, package: Swift.String? = nil) -> PackageDescription.Target.Dependency
+  @available(_PackageDescription 5.2)
+  public static func product(name: Swift.String, package: Swift.String) -> PackageDescription.Target.Dependency
+  public static func byName(name: Swift.String) -> PackageDescription.Target.Dependency
+}
+extension Target.Dependency : Swift.ExpressibleByStringLiteral {
+  public init(stringLiteral value: Swift.String)
+  public typealias StringLiteralType = Swift.String
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
+  public typealias UnicodeScalarLiteralType = Swift.String
+}
+extension Version : Swift.ExpressibleByStringLiteral {
+  public init(stringLiteral value: Swift.String)
+  public init(extendedGraphemeClusterLiteral value: Swift.String)
+  public init(unicodeScalarLiteral value: Swift.String)
+  public typealias StringLiteralType = Swift.String
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
+  public typealias UnicodeScalarLiteralType = Swift.String
+}
+extension Version {
+  public init(_ version: PackageDescription.Version)
+  public init?(_ versionString: Swift.String)
+}
+public struct Version {
+  public let major: Swift.Int
+  public let minor: Swift.Int
+  public let patch: Swift.Int
+  public let prereleaseIdentifiers: [Swift.String]
+  public let buildMetadataIdentifiers: [Swift.String]
+  public init(_ major: Swift.Int, _ minor: Swift.Int, _ patch: Swift.Int, prereleaseIdentifiers: [Swift.String] = [], buildMetadataIdentifiers: [Swift.String] = [])
+}
+extension Version : Swift.Comparable {
+  public static func < (lhs: PackageDescription.Version, rhs: PackageDescription.Version) -> Swift.Bool
+  public static func == (a: PackageDescription.Version, b: PackageDescription.Version) -> Swift.Bool
+}
+extension Version : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension Version : Swift.Encodable {
+  public func encode(to encoder: Swift.Encoder) throws
+}

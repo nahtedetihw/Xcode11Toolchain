@@ -1,0 +1,110 @@
+module metal_stdlib {
+  requires metal
+  header "metal_stdlib"
+  export *
+}
+module metal_array {
+  requires metal
+  header "metal_array"
+  export *
+}
+module metal_atomic {
+  requires metal
+  header "metal_atomic"
+  export *
+}
+module metal_command_buffer {
+  requires metal
+  header "metal_command_buffer"
+  export *
+}
+module metal_common {
+  requires metal
+  header "metal_common"
+  export *
+}
+module metal_compute {
+  requires metal
+  header "metal_compute"
+  export *
+}
+module metal_functional {
+  requires metal
+  header "metal_functional"
+  export *
+}
+module metal_geometric {
+  requires metal
+  header "metal_geometric"
+  export *
+}
+module metal_graphics {
+  requires metal
+  header "metal_graphics"
+  export *
+}
+module metal_initializer_list {
+  requires metal
+  header "metal_initializer_list"
+  export *
+}
+module metal_integer {
+  requires metal
+  header "metal_integer"
+  export *
+}
+module metal_limits {
+  requires metal
+  header "metal_limits"
+  export *
+}
+module metal_math {
+  requires metal
+  header "metal_math"
+  export *
+}
+module metal_matrix {
+  requires metal
+  header "metal_matrix"
+  export *
+}
+module metal_numeric {
+  requires metal
+  header "metal_numeric"
+  export *
+}
+module metal_pack {
+  requires metal
+  header "metal_pack"
+  export *
+}
+module metal_quadgroup {
+  requires metal
+  header "metal_quadgroup"
+  export *
+}
+module metal_relational {
+  requires metal
+  header "metal_relational"
+  export *
+}
+module metal_simdgroup {
+  requires metal
+  header "metal_simdgroup"
+  export *
+}
+module metal_texture {
+  requires metal
+  header "metal_texture"
+  export *
+}
+module metal_uniform {
+  requires metal
+  header "metal_uniform"
+  export *
+}
+module metal_utility {
+  requires metal
+  header "metal_utility"
+  export *
+}
